@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(192, 174, 196);
+}
+
+#rcorner {
+    border-radius: 50px;
+    background: skyblue;
+    padding: 20px;
+    width: 150px;
+    height: 100px;
+}
+.right {
+    float: right;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: rgb(236, 227, 227);
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p.dotted {
+    border-style:dotted;
+}
+
+p.padding {
+    border: 1px solid black;
+    background-color: skyblue;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 50px;
+}
